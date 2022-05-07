@@ -4,8 +4,9 @@ Function search-google {
         $args | % { $query = $query + "$_+" }
         $url = $query.Substring(0, $query.Length - 1)
         start "$url"
-} Set-Alias websearch search-google
+} Set-Alias google search-google
 
+function which($cmd) { get-command $cmd | % { $_.Path } }
 
 # Easier Navigation: .., ..., ...., ....., and ~
 ${function:~} = { Set-Location ~ }
