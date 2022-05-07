@@ -1,0 +1,47 @@
+new-install:
+  - 7zip.7zip
+  - Google.Drive
+  - Google.Chrome
+  - Mozilla.Firefox
+  - Notepad++.Notepad++
+  - TheDocumentFoundation.LibreOffice
+  - voidtools.Everything
+  - KeePassXCTeam.KeePassXC
+  - BleachBit.BleachBit
+  - WinDirStat.WinDirStat
+  - Lexikos.AutoHotkey
+  - Evernote
+  - Klocman.BulkCrapUninstaller
+  - CPUID.CPU-Z
+  - WireGuard.WireGuard
+suites:
+  coding:
+    # IDEs and SCM
+    - Microsoft.VisualStudioCode
+    - JetBrains.IntelliJIDEA.Community.EAP
+    - Git.Git
+    - GitHub.cli
+    - nvim
+    # Programming Languages
+    - AdoptOpenJDK.OpenJDK.8
+    - Python.Python.3
+    - GoLang.Go
+    - OpenJS.NodeJS
+    # Build Tools
+    # - Winget doesn't have either maven or gradle packages
+    # Database
+    - dbeaver.dbeaver
+    # Servers and Sessions
+    - WinSCP.WinSCP
+    - mRemoteNG.mRemoteNG
+    # Networking
+    - WiresharkFoundation.Wireshark
+    - Postman.Postman
+  design:
+    - KDE.Krita
+  streaming:
+    - OBSProject.OBSStudio
+  gaming:
+    - Valve.Steam
+    - GOG.Galaxy
+    - EpicGames.EpicGamesLauncher
